@@ -1,4 +1,5 @@
 import { useRouter } from "next/router";
+import { Fragment } from "react";
 
 export default function DetailsPage() {
   const router = useRouter();
@@ -21,9 +22,9 @@ export default function DetailsPage() {
   }
 
   return (
-    <fragement>
+    <Fragment>
       <h2>User Detail Page</h2>;
       {printUser}
-    </fragement>
+    </Fragment>
   );
 }
